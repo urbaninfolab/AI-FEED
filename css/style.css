@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro #intro-carousel::before {
   content: '';
-  background-color: rgba(156, 51, 255, 0.527);
+  background-color: #0c2e8a85;
   position: absolute;
   height: 100%;
   width: 100%;
