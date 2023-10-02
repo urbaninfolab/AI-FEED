@@ -192,6 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0), 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 #intro .intro-content h2 span {
@@ -244,7 +245,20 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro #intro-carousel::before {
   content: '';
-  background-color: #0c2e8a85;
+  background-color: #0c2e8a48;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 7;
+}
+
+#intro::before {
+  content: '';
+  background-color: #0c2e8a48;
   position: absolute;
   height: 100%;
   width: 100%;
